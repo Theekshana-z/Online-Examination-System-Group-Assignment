@@ -1,0 +1,35 @@
+section {
+    margin-top: 4vw;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 16px;
+}
+
+form {
+    font-size: 18px; 
+}
+
+input[type="submit"] {
+    background-color: #0078d4; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px;
+}
+
+
+input[type="text"] {
+    width: 30vw;
+    height: 3vw;
+    border-radius: 3px;
+    border: 2px solid black;
+    padding-left: 2vw;
+    
+    outline: none
+}
+
+input::placeholder{
+    font-style: normal;
+}

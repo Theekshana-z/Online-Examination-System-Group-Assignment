@@ -1,0 +1,275 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+	
+}
+
+header {
+    background-color: #24262b;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  nav ul a:hover
+  {
+    color: #ffffff;
+  }
+
+  nav ul li:hover a {
+    color: #007bff;
+    ;
+  }
+
+  nav ul li a:active {
+    color: #007bff;
+  }
+  
+  nav ul li {
+    position: relative;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: #24262b;
+    min-width: 100px;
+    padding: 10px;
+  }
+  
+  
+  nav ul li:hover .submenu {
+    display: block;
+  }
+
+
+  nav ul li .submenu li:hover a {
+  color: #007bff; 
+}
+
+
+  nav ul li .submenu li a:active {
+  color: #007bff;
+}
+  
+  .login-signup
+  {
+    padding-right: 20px;
+
+  }
+
+  .login-signup button {
+    padding: 8px 15px;
+    margin-left: 15px;
+    background-color: #014a7a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius:3px !important;
+  }
+  
+  .login-signup button.login {
+    background-color: #014a7a;
+  }
+  
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #808080;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.course, .coursefee {
+    flex: 1;
+}
+
+.course h2, .coursefee h2 {
+    color: #333;
+}
+
+.course label, .coursefee label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.select-course select, #fee, #course {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+hr {
+    margin: 20px 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-side, .right-side {
+    flex: 1;
+}
+
+.left-side h2, .right-side h2 {
+    color: #333;
+}
+
+.left-side label, .right-side label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.select-course select, #fee, #course {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+hr {
+    margin: 20px 0;
+}
+input[type="submit"]
+ {
+        background-color: #ff0000; /* Red background color */
+        color: #ffffff; /* White text color */
+        padding: 10px 20px; /* Padding for the buttons */
+        border: none; /* Remove the button border */
+        border-radius: 5px; /* Rounded corners */
+        cursor: pointer; /* Cursor style on hover */
+        margin-right: 10px; /* Add some margin between buttons */
+    }
+
+    {
+        background-color: #cc0000; /* Darker red on hover */
+    }
+
+
+
+footer 
+{
+  background-color: #24262b;
+  height: auto;
+  width: auto;
+  padding:0%;
+  text-align: center;
+}
+
+.social-media img {
+  padding-top: 10px;
+  width: 30px;
+  margin: 4px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #007bff;
+}
+
+.footer-bottom
+{
+  background: #00072e;
+  padding: 1px;
+}
+
+.footer-bottom p
+{
+  color: #ffffff;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}

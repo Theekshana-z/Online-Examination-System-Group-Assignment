@@ -1,0 +1,252 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header {
+    background-color: #24262b;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  nav ul a:hover
+  {
+    color: #ffffff;
+  }
+
+  nav ul li:hover a {
+    color: #007bff;
+    ;
+  }
+
+  nav ul li a:active {
+    color: #007bff;
+  }
+  
+  nav ul li {
+    position: relative;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: #24262b;
+    min-width: 100px;
+    padding: 10px;
+  }
+  
+  
+  nav ul li:hover .submenu {
+    display: block;
+  }
+
+
+  nav ul li .submenu li:hover a {
+  color: #007bff; 
+}
+
+
+  nav ul li .submenu li a:active {
+  color: #007bff;
+}
+  
+  .login-signup
+  {
+    padding-right: 20px;
+
+  }
+
+  .login-signup button {
+    padding: 8px 15px;
+    margin-left: 15px;
+    background-color: #014a7a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius:3px !important;
+  }
+  
+  .login-signup button.login {
+    background-color: #014a7a;
+  }
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+.c-icon {
+    font-size: 28px; /* You can adjust this based on your design */
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+
+
+.c-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3, p {
+    color: black;
+}
+
+
+.c-details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.c-box {
+    text-align: center;
+    margin: 20px;
+
+}
+
+.c-icon {
+    font-size: 28px;
+}
+
+.c-info {
+    margin-top: 10px;
+}
+
+.c-form {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    max-width: 600px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input,
+form select,
+form textarea,
+form button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.form-item,
+.form-phone,
+.form-txt {
+    display: block;
+}
+
+#subBtn,
+#resetBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#subBtn:hover,
+#resetBtn:hover {
+    background-color: #45a049;
+}
+
+.c-map {
+    margin-top: 20px;
+}
+
+
+
+
+footer 
+{
+  background-color: #24262b;
+  height: auto;
+  width: auto;
+  padding:0%;
+  text-align: center;
+}
+
+.social-media img {
+  padding-top: 10px;
+  width: 30px;
+  margin: 4px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #007bff;
+}
+
+.footer-bottom
+{
+  background: #00072e;
+  padding: 1px;
+}
+
+.footer-bottom p
+{
+  color: #ffffff;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}

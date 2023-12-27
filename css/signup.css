@@ -1,0 +1,52 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#FFFFFF; 
+}
+
+form {
+    width: 10vw;
+    background-color: #f2f2f2; 
+    margin: 0;
+    padding: 2px;
+     border: 3px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formname {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+select {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.gen label {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.su {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.su:hover {
+    background-color: #45a049;
+}
+

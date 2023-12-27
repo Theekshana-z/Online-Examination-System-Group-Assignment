@@ -1,0 +1,27 @@
+
+.question {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.options {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+
+.submit-button {
+    background-color: #007bff; 
+    color: #fff;            
+    padding: 10px 20px;     
+    border: none;            
+    cursor: pointer;
+    margin-left: 70px;  
+    margin-top: 20px;
+    border-radius: 10px; 
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}

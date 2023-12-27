@@ -1,0 +1,39 @@
+.dash {
+    margin-top: 3vw;
+    text-align: center;
+}
+
+#ans {
+    width: 100vw;
+    text-align: center;
+}
+
+form {
+    margin: 0;
+    width: 100vw;
+    text-align: center; 
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 40%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+
+    
+}
+
+input[type="submit"] {
+    background-color: #0078d4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
